@@ -12,17 +12,7 @@ module.exports = {
   plugins: ['react-refresh', 'simple-import-sort'],
   rules: {
     'react-refresh/only-export-components': 'warn',
-    'prettier/prettier': [
-      'warn',
-      { endOfLine: 'auto' },
-      {
-        singleQuote: true,
-        parser: 'flow',
-      },
-      {
-        quotes: ['error', 'single'],
-      },
-    ],
+    'prettier/prettier': ['warn', { endOfLine: 'auto' }],
     'react/prop-types': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
